@@ -1,8 +1,8 @@
 ---
 - hosts: buildserver
   vars:
-  - warName: simplejava.war
-  - tomcat_version: 10.1.19
+  - warName: java-example-0.0.1-SNAPSHOT.war
+  - tomcat_version: 8.5.99
   - warRemotePath: /opt/apache-tomcat-{{ tomcat_version }}/webapps
 
   tasks:
